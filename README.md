@@ -109,18 +109,4 @@ xxx ;             xxx  ;      xxx
 
 Due to the storage space limitatiton in GitHub, which does not allow files exceed 100MB be uploaded in the repository. Therefore, we only update the sub-set for each workload trace, and this would lead to an unrepresentative comparison result for Flame. 
 
-For a complete evaluation, we also provide a local testbed for the user, and the local testbed can be accessed from a remote shell commands in the following:
-
-```
-# Log in the remote server 123.56.105.188, password is xxx
-$ ssh  root@123.56.105.188
-
-then, execute the following commands in server 123.56.105.188
-
-$ ssh tank@localhost -p 8387     
-$ cd /home/xxx/cacheResearch/
-```
- 
-After that, please follows the instructions in `Launching Flame` section.
-
 Any question please contact us from ynyang@tju.edu.cn.
